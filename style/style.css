@@ -1,0 +1,61 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    font-size: 45px;
+    font-family: "Open Sans", serif;
+}
+.header{
+    background-color: rgb(133, 248, 214);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position:  bottom right, top left;
+
+}
+.sname{
+    color: rgb(230, 167, 144);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:220px;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    padding-right: 50px;
+}
+.btn-primary{
+    background-color: rgb(233, 183, 164);
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 45px;
+    font-weight: 700;
+}
+.banner{
+    padding:30px 50px 0px 200px ;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.banner .propic{
+    width: 500px;
+    height: 600px;
+}
+.banner-greetings{
+    margin-bottom: 0;
+}
+.banner-title{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.banner p{
+    margin: 0;
+}
+a :hover{
+    background-color: rgb(106, 106, 196);
+}
